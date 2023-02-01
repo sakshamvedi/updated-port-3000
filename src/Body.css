@@ -437,6 +437,20 @@ body {
   color: black;
 }
 
+.threed h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 30px;
+  font-size: 35px;
+  color: #4d4d4d;
+}
+.threed .canvas {
+  border-radius: 50px;
+  margin-left: 10%;
+  background-image: url("https://images.unsplash.com/photo-1637970067784-927e66e07e36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNzg2NTJ8MHwxfHNlYXJjaHwxMHx8Z2FyYWdlfGVufDB8fHx8MTY3NTIzNjIwNg&ixlib=rb-4.0.3&q=80&w=1080");
+  background-position: center;
+  background-size: cover;
+}
+
 .footer {
   margin-top: 200px;
   background: linear-gradient(to right, #ee0979, #ff6a00);

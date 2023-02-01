@@ -4,7 +4,10 @@ import "./Body.css";
 import Game from './Game';
 import { Link } from 'react-router-dom';
 import {FaGamepad} from 'react-icons/fa';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from "@react-three/drei";
 import {DiGithubFull} from 'react-icons/di';
+import {Model} from "./Car"
 import {FiGithub, FiLinkedin} from 'react-icons/fi';
 function Body() {
 
@@ -207,6 +210,20 @@ document.onmousemove =   function changepupil(e){
     </div>
 </div>
 
+<div className="threed">
+<h2>Let's Play with Three.js</h2>
+<div className='items'>
+ <Canvas className='canvas' style={{height : "500px" , width :"80%"}}>
+  <ambientLight intensity={0.5}/>
+  <OrbitControls/>
+  <directionalLight position={[-2,5,2]} intensity ={15}/>
+  <Model/>
+ </Canvas>
+ </div>
+
+</div>
+
+
 <div className="search">
 <p> </p>
    <div className="line"></div>
@@ -216,6 +233,8 @@ document.onmousemove =   function changepupil(e){
     <input value={"Saksham Vedi"}/>
     <a href='https://www.google.com/search?client=firefox-b-d&q=saksham+vedi' target={"_blank"}>Search</a>
 </div>
+
+
 
 <div className="footer">
     <p>This Web-Page is solely created by Saksham Vedi</p>
