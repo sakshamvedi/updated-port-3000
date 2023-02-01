@@ -64,8 +64,9 @@ document.onmousemove =   function changepupil(e){
 <div className="mid-bar">
 <div className="box1">
     <h1>
-        Hey !! my name is <b>Saksham</b>
+        Hello ! <br></br>Myself Saksham
     </h1>
+    <p>A Front-End Developer  </p>
   
 </div>
 <div className="box2">
